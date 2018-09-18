@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<body >
+	<div class ="loginbox" style="">
+		<img src="logo_page.png" class="logo">
+		<h1 style="font-size: 40px; ">Register Here</h1>
+		 <form action="insert.php" method="POST">
+			<table>
+			<tr>
+			<td>Name*</td>
+			<td><input type="text" name="username" placeholder="Enter Name"
+			style="color:#bbb;" required></td>
+		     </tr>
+
+            <tr>
+            <td>Branch*</td>
+			<td><input type="text" name="branch" placeholder="Enter branch"style="color:#bbb;"required></td>
+			</tr>  
+			 
+			 <tr>
+			<td>Email*</td> 
+			<td><input type="email" name="email" placeholder="Enter gmail" style="color:#bbb;             "required></td>
+			</tr>
+
+
+			<tr>
+			<td>Contact no.*</td>
+			<td><input type="tel" name="phone" placeholder="Phone no."style="color:#bbb;"required>
+			</td>
+		    </tr>
+
+
+             <tr>
+             <td>Year*</td>
+  			<td>
+  			<input type="radio" name="Year" value="first" checked="">First<br>
+ 			<input type="radio" name="Year" value="Second">Second<br>
+  			<input type="radio" name="Year" value="third"> Thrid<br>
+   			<input type="radio" name="Year" value="fourth"> Fourth<br>
+   		    </td>
+   		     </tr>
+			
+  			<tr>
+  				<td>
+  					<input type="Submit"  name="" value="Submit"style="  border: solid 1px #6E6E6E;
+			color:#fff">
+  				</td>
+  			</tr>
+  		</table>
+			
+
+
+		</form>
+
+	</div>
+	
+
+</body>
+</head>
+</html>

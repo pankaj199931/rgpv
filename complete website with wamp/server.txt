@@ -1,0 +1,29 @@
+server is wamp
+http://localhost/             (made a new index.html  and place in www folder so that directly accessible to localhost)
+http://localhost/index1.php   ( To secure server changed original index.php to index1.php)
+http://localhost/phpmyadmin/index.php (server login page inside phpmyadmin)
+http://localhost/Pheonix/      (index.html page of Pheonix)
+http://localhost/Pheonix/page.html  (registraion page)
+http://localhost/Pheonix/page2.html  (rregisteration completion)
+http://localhost/Pheonix/page3.html and http://localhost/Pheonix/page4.html  (error page)
+
+while seeting wamp up let things be defalut username root password=""
+while making insert.php we give dbname table name username and password
+here db name = mydb and table name is register
+ make sure all files remain in place from where they are accessible.
+
+
+
+so basically download wamp for windows 10 and latest version of visual studio c++ redistribution
+install run wamp so icon become green
+while setting things up make things defalut
+in local server log in as root
+make a db by pressing "new" give name mydb make table with name reister and property as in screen shot
+place every file in place
+youll be able to locally host your website at above link to make website publicly available see tunneling 
+
+//tunneling
+place lt-win in desktop 
+do as in screenshot but since now pankaj567 is already taken use something else.
+youll get a url share it and use it
+
